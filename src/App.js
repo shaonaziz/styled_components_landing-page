@@ -1,24 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col,Card,} from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="mt-3">
+      <Row>
+        <Col className="md">
+          <Card style={{ width: "15rem" }}>
+            <Card.Img variant="top" src="https://picsum.photos/100/100" />
+            <Card.Body>
+              <Card.Title>The beautiful Senerio of nature</Card.Title>
+              <Card.Text>
+                Lorem, ipsum dolor sit amet consectetur adipisicing.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col className="md p-1">
+          <Card style={{ width: "15rem" }}>
+            <Card.Img
+              variant="top"
+              src="https://picsum.photos/100/100/?blur=2"
+            />
+            <Card.Body>
+              <Card.Title>The beautiful Senerio of nature</Card.Title>
+              <Card.Text>
+                Lorem, ipsum dolor sit amet consectetur adipisicing.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col className="md p-1">
+          <Card style={{ width: "15rem" }}>
+            <Card.Img variant="top" src="https://picsum.photos/100" />
+            <Card.Body>
+              <Card.Title>The beautiful Senerio of nature</Card.Title>
+              <Card.Text>
+                Lorem, ipsum dolor sit amet consectetur adipisicing.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
