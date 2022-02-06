@@ -10,7 +10,7 @@ import content from "./styles/content";
 
 const theme = {
   colors: {
-    header: "#ebfbfb",
+    header: "#b5a1dc",
     body: "#fff",
     footer: "#202124",
   },
@@ -28,7 +28,7 @@ const Home = () => {
             <Card key={index} item={item} />
           ))}
         </Container>
-        <Footer/>
+        <Footer />
       </>
     </ThemeProvider>
   );

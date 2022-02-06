@@ -20,8 +20,8 @@ const Header = () => {
               voluptates recusandae porro numquam! Inventore? Lorem ipsum dolor
               sit.
             </p>
-            <Button bg="#90EE90" color="#84696e">
-              Say Hi! Boss is Waiting..
+            <Button bg="#eededa" color="#860828">
+              Make Your Desire With Us!
             </Button>
           </div>
           <Image src='./images/illustration-mockups.svg' alt="" />
